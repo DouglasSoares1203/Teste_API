@@ -29,8 +29,8 @@ namespace Teste_API.Controllers
         public IActionResult ObterTodos()
         {
             
-
-            return Ok();
+            var tarefa = _context.Tarefas.ToList();
+            return Ok(tarefa);
 
         }
 
