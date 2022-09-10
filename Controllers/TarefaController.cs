@@ -28,7 +28,7 @@ namespace Teste_API.Controllers
         [HttpGet("ObterTodos")]
         public IActionResult ObterTodos()
         {
-            //var tarefa = _context.Tarefas.GetAll();
+            
 
             return Ok();
 
